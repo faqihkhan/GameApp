@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Game App | Game Website</title>
+</head>
+<body>
+    <header>
+        <aside>
+            <h1>Game <i class="bi bi-joystick"></i></h1>
+            <button>Get Game Prime</button>
+            <ul>
+                <li class=".active_li"><a href="#"><i class="bi bi-archive-fill"></i> Browse</a></li>
+                <li><a href="#"><i class="bi bi-clipboard-check-fill"></i> Channels</a></li>
+                <li><a href="#"><i class="bi bi-calendar-event-fill"></i> Events</a></li>
+                <li><a href="#"><i class="bi bi-people-fill"></i> Friends</a></li>
+                <li><a href="#"><i class="bi bi-controller"></i> Games</a></li>
+                <li><a href="#"><i class="bi bi-bookmark-check"></i> Store</a></li>
+            </ul>
+            <!-- subscriptions box start -->
+            <div class="subscriptions">
+                <h5>Subscriptions</h5>
+                <div class="cards">
+                    <div class="card">
+                        <div class="img_bx">
+                            <img src="images/Person/president cina.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Jahid Khan [KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_bx">
+                            <img src="images/Person/president indonesia.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Salman Khan [KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_bx">
+                            <img src="images/Person/president jepang.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Mohammad Ali [KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_bx">
+                            <img src="images/Person/president korea utara.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Mike Tyson [KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_bx">
+                            <img src="images/Person/president malaysia.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>John Wick [KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_bx">
+                            <img src="images/Person/president rusia.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Nadim Makarim [KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_bx">
+                            <img src="images/Person/president vietnam.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Aji Krisna [KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_bx">
+                            <img src="images/Person/president cina.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Bakar [KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_bx">
+                            <img src="images/Person/president rusia.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Agus Setiawan [KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img_bx">
+                            <img src="images/Person/president korea utara.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h6>Fiki Naki [KDS CODER]</h6>
+                            <p>GTA V</p>
+                        </div>
+                    </div>
+                    <!-- all card data change -->
+                </div>
+            </div>
+        </aside>
+        <article>
+            <nav>
+                <button>Strem</button>
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                    <i class="bi bi-search"></i>
+                </div>
+                <div class="right_bx">
+                    <i class="bi bi-moon-fill" id="day_night"></i>
+                    <i class="bi bi-brightness-high-fill" id="day_night2"></i>
+                    <i class="bi bi-wifi" id="wifi"></i>
+                    <i class="bi bi-gear-fill"></i>
+                    <button id="active_battery"><i class="bi bi-battery-half" id="battery_icon"></i><span id="battery_level">74%</span></button>
+                    <div class="user_data">
+                        <h6>Jahid Khan [KDS CODER]</h6>
+                        <h5>JK</h5>
+                        <i class="bi bi-caret-down-fill"></i>
+                        <div class="card">
+                            <img src="images/Person/president cina.jpg" alt="">
+                            <h6>Jahid Khan [KDS CODER]</h6>
+                            <p>GTA V</p>
+                            <button>Premium</button>
+                            <img class="card_gta_img" src="images/Person/president indonesia.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Game Box Start -->
+            <div class="game1">
+                <div class="btns">
+                    <i class="bi bi-caret-left-fill" id="game_bx_1_left_btn"></i>
+                    <i class="bi bi-caret-right-fill" id="game_bx_1_right_btn"></i>
+                </div>
+                <h3>Recommend for You</h3>
+                <div class="game_bx" id="game_bx_1">
+                    <div class="card">
+                        <img src="images/Game/download (2).jpeg" alt="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Squid Game</h5>
+                                <p>Jahid Khan[KDS CODER]</p>
+                            </div>
+                            <h6>354,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Cyber Punk.jpeg" alt="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Cyberpunk</h5>
+                                <p>Fiki Naki[KDS CODER]</p>
+                            </div>
+                            <h6>354,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Resident Evil Village.jpeg" alt="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Village</h5>
+                                <p>Mike Tyson[KDS CODER]</p>
+                            </div>
+                            <h6>354,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Call of Duty Warzone.jpeg" alt="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Call of Duty Warezone</h5>
+                                <p>Agus Setiawan[KDS CODER]</p>
+                            </div>
+                            <h6>354,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Hollowborn.jpeg" alt="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Hollowborn</h5>
+                                <p>Jahid Khan[KDS CODER]</p>
+                            </div>
+                            <h6>354,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Hades.jpeg" alt="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Hades</h5>
+                                <p>Jahid Khan[KDS CODER]</p>
+                            </div>
+                            <h6>354,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Grand Thef Auto.jpeg" alt="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Grand Theft Auto V</h5>
+                                <p>Jahid Khan[KDS CODER]</p>
+                            </div>
+                            <h6>354,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Ghost of Tsushima.jpeg" alt="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Gost</h5>
+                                <p>Jahid Khan[KDS CODER]</p>
+                            </div>
+                            <h6>354,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/The Last of Us.jpeg" alt="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>The Last of Us</h5>
+                                <p>Jahid Khan[KDS CODER]</p>
+                            </div>
+                            <h6>354,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/download (11).jpeg" alt="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Walheim</h5>
+                                <p>Jahid Khan[KDS CODER]</p>
+                            </div>
+                            <h6>354,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Cyber Punk.jpeg" alt="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Grand Theft Auto V</h5>
+                                <p>Jahid Khan[KDS CODER]</p>
+                            </div>
+                            <h6>354,452 Views</h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Call of Duty Warzone.jpeg" alt="">
+                        <div class="content">
+                            <div class="left">
+                                <h5>Grand Theft Auto V</h5>
+                                <p>Jahid Khan[KDS CODER]</p>
+                            </div>
+                            <h6>354,452 Views</h6>
+                        </div>
+                    </div>
+                    <!-- All card data changed -->
+                </div>
+            </div>
+            <!-- game box 2 start -->
+            <div class="game2">
+                <h3>Most Played</h3>
+                <div class="games_bx">
+                    <div class="card">
+                        <img src="images/Game/Phone/images (1).jpg" alt="">
+                        <div class="content">
+                            <h4>Conter Stike</h4>
+                            <p>23.k Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (10).jpeg" alt="">
+                        <div class="content">
+                            <h4>Shoot</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (11).jpeg" alt="">
+                        <div class="content">
+                            <h4>Dark</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (12).jpeg" alt="">
+                        <div class="content">
+                            <h4>Trasformer</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (13).jpeg" alt="">
+                        <div class="content">
+                            <h4>Lucy</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (14).jpeg" alt="">
+                        <div class="content">
+                            <h4>Black Head</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (15).jpeg" alt="">
+                        <div class="content">
+                            <h4>War World</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (2).jpeg" alt="">
+                        <div class="content">
+                            <h4>Giant</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (3).jpeg" alt="">
+                        <div class="content">
+                            <h4>Robot</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (4).jpeg" alt="">
+                        <div class="content">
+                            <h4>Future World</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (5).jpeg" alt="">
+                        <div class="content">
+                            <h4>Gamer</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (6).jpeg" alt="">
+                        <div class="content">
+                            <h4>Barbie</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (7).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (8).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (9).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (1).jpg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (10).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (11).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (12).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (13).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (14).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (15).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (2).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (3).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (4).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (5).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (6).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (7).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (8).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (9).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (3).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/Game/Phone/images (4).jpeg" alt="">
+                        <div class="content">
+                            <h4>Uncharted 4</h4>
+                            <p>4512 Streamers</p>
+                        </div>
+                    </div>
+                    <!-- All Card Date Changed -->
+                </div>
+            </div>
+        </article>
+    </header>
+    <script src="main.js"></script>
+</body>
+</html>
